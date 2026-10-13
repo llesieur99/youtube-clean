@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "YouTube Clean — Masquer Shorts & Jeux",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Masque Shorts & Jeux intégrés sur YouTube sans casser la recherche. Sur YouTube Music, trie les listes par nombre de lectures.",
   "default_locale": "fr",
   "icons": {

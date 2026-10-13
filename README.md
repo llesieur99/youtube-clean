@@ -1,4 +1,4 @@
-# YouTube Clean 1.4.2
+# YouTube Clean 1.4.3
 
 Free extension for desktop Chromium browsers: Chrome, Edge, Brave and Opera. The extension's settings interface is in French. This Manifest V3 package is not provided for Firefox, Safari, mobile browsers or the YouTube apps.
 
@@ -13,14 +13,14 @@ Shorts hiding, Playables hiding and Music sorting are on by default. Toggle each
 
 ## Manual installation
 
-1. Download the ZIP from https://le-sieur.ca/en/youtube-clean/ and extract it into a folder you will keep.
+1. Download [YouTube-Clean-v1.4.3.zip](https://github.com/llesieur99/youtube-clean/releases/download/v1.4.3/YouTube-Clean-v1.4.3.zip) from the [GitHub release](https://github.com/llesieur99/youtube-clean/releases/tag/v1.4.3) and extract it into a folder you will keep. Choose the extension ZIP under Assets, not the automatically generated source code archives.
 2. Copy your browser's extensions address into its address bar:
    - Chrome: chrome://extensions
    - Edge: edge://extensions
    - Brave: brave://extensions
    - Opera: opera://extensions
 3. Enable “Developer mode”.
-4. Click “Load unpacked”. Select the YouTube-Clean-v1.4.2 folder containing manifest.json directly, not the unopened ZIP.
+4. Click “Load unpacked”. Select the YouTube-Clean-v1.4.3 folder containing manifest.json directly, not the unopened ZIP.
 5. Open or reload YouTube / YouTube Music. Optionally pin the extension and open its icon to adjust settings.
 
 Clicking the website button downloads the ZIP; it does not install the extension automatically. No store listing is required. If your organization manages your browser and blocks developer mode, respect that restriction. Keep the extracted folder in place.
