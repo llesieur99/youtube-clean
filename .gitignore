@@ -1,0 +1,64 @@
+# Private configuration and browser data
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+*.cred
+*.db
+*.db-*
+*.sqlite*
+*.log
+*.bak*
+*.zip
+*.7z
+*.har
+*.crx
+*.profraw
+*cookies*
+*Cookies*
+*credentials*
+*Credentials*
+*session*
+*Session*
+*token*
+*Token*
+secrets/
+private/
+notes/
+notes-cockpit/
+browser-data/
+profiles/
+User Data/
+Login Data*
+Web Data*
+settings.local.*
+_local/
+work/
+backup*/
+tmp*/
+node_modules/
+.venv*/
+venv*/
+__pycache__/
+build/
+dist*/
+.wrangler/
+.grok/
+.codex/
+.claude/
+._*
+.DS_Store
+Thumbs.db
+
+# Internal operational documents belong outside the public repository
+CONTINUER-ICI.txt
+GITHUB-INTEGRATION.md
+LISEZMOI-LOCAL.md
+LISEZMOI.txt
+ORIENTATION.md
+WORKFLOW-GITHUB.md
+docs/YOUTUBE-CLEAN-PUBLICATION-2026-10-13.md

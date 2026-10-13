@@ -1,0 +1,43 @@
+/* Backup CSS — le JS injecte aussi un style forcé */
+
+html.ytc-hide-playables mini-game-card-view-model,
+html.ytc-hide-playables .yt-mini-game-card-view-model,
+html.ytc-hide-playables [class*="yt-mini-game-card"],
+html.ytc-hide-playables ytd-rich-item-renderer:has(mini-game-card-view-model),
+html.ytc-hide-playables ytd-rich-section-renderer:has(mini-game-card-view-model),
+html.ytc-hide-playables ytd-rich-section-renderer:has(a[href*="playables"]),
+html.ytc-hide-playables ytd-rich-item-renderer:has(a[href*="playables"]),
+html.ytc-hide-playables ytd-guide-entry-renderer:has(a[href*="playables"]),
+html.ytc-hide-playables ytd-mini-guide-entry-renderer:has(a[href*="playables"]) {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  max-height: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+}
+
+html.ytc-hide-shorts ytd-reel-shelf-renderer,
+html.ytc-hide-shorts ytm-reel-shelf-renderer,
+html.ytc-hide-shorts ytm-shorts-lockup-view-model,
+html.ytc-hide-shorts ytm-shorts-lockup-view-model-v2,
+html.ytc-hide-shorts .shortsLockupViewModelHost,
+html.ytc-hide-shorts ytd-rich-shelf-renderer[is-shorts],
+html.ytc-hide-shorts grid-shelf-view-model:has(ytm-shorts-lockup-view-model),
+html.ytc-hide-shorts grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2),
+html.ytc-hide-shorts grid-shelf-view-model:has(.shortsLockupViewModelHost),
+html.ytc-hide-shorts ytd-rich-section-renderer:has(ytd-reel-shelf-renderer),
+html.ytc-hide-shorts ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+html.ytc-hide-shorts ytd-rich-section-renderer:has(ytm-shorts-lockup-view-model),
+html.ytc-hide-shorts ytd-rich-section-renderer:has(ytm-shorts-lockup-view-model-v2),
+html.ytc-hide-shorts ytd-rich-item-renderer:has(ytm-shorts-lockup-view-model),
+html.ytc-hide-shorts ytd-rich-item-renderer:has(ytm-shorts-lockup-view-model-v2),
+html.ytc-hide-shorts ytd-rich-item-renderer:has([overlay-style="SHORTS"]),
+html.ytc-hide-shorts ytd-video-renderer:has([overlay-style="SHORTS"]),
+html.ytc-hide-shorts ytd-compact-video-renderer:has([overlay-style="SHORTS"]),
+html.ytc-hide-shorts yt-lockup-view-model:has([overlay-style="SHORTS"]),
+html.ytc-hide-shorts ytd-guide-entry-renderer:has(a[href="/shorts"]),
+html.ytc-hide-shorts ytd-mini-guide-entry-renderer:has(a[href="/shorts"]),
+html.ytc-hide-shorts ytd-rich-item-renderer:has(a[href^="/shorts/"]):not(:has(a[href^="/watch"])) {
+  display: none !important;
+}

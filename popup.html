@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YouTube Clean</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo" aria-hidden="true">▶</div>
+      <div>
+        <h1>YouTube Clean</h1>
+        <p class="sub">Shorts, jeux &amp; Music</p>
+      </div>
+    </header>
+
+    <main>
+      <label class="row">
+        <div class="label-text">
+          <span class="title">Masquer les Shorts</span>
+          <span class="hint">Menu, accueil, recherche, barre latérale</span>
+        </div>
+        <input type="checkbox" id="hideShorts" checked />
+        <span class="switch"></span>
+      </label>
+
+      <label class="row">
+        <div class="label-text">
+          <span class="title">Masquer les jeux intégrés</span>
+          <span class="hint">Section Playables / Jeux sur l’accueil</span>
+        </div>
+        <input type="checkbox" id="hidePlayables" checked />
+        <span class="switch"></span>
+      </label>
+
+      <hr />
+
+      <label class="row">
+        <div class="label-text">
+          <span class="title">Rediriger /playables</span>
+          <span class="hint">Renvoie vers l’accueil YouTube</span>
+        </div>
+        <input type="checkbox" id="redirectPlayables" checked />
+        <span class="switch"></span>
+      </label>
+
+      <label class="row">
+        <div class="label-text">
+          <span class="title">Rediriger les Shorts</span>
+          <span class="hint">Ouvre en vidéo classique (/watch) si possible</span>
+        </div>
+        <input type="checkbox" id="redirectShorts" />
+        <span class="switch"></span>
+      </label>
+
+      <hr />
+
+      <label class="row">
+        <div class="label-text">
+          <span class="title">Music : tri par lectures</span>
+          <span class="hint">Artiste / playlist → du plus écouté au moins (bouton ▼ Lectures)</span>
+        </div>
+        <input type="checkbox" id="sortYtmArtistByPlays" checked />
+        <span class="switch"></span>
+      </label>
+    </main>
+
+    <footer>
+      <span id="status">Prêt</span>
+      <button type="button" id="reload" title="Recharger l’onglet YouTube / Music actif">
+        Appliquer
+      </button>
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
