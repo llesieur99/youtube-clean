@@ -35,4 +35,4 @@ Changes to YouTube's interface may affect hiding and sorting. This is not an ad 
 
 Independent project, not affiliated with YouTube or Google. Free distribution under the MIT license (see LICENSE), without warranty.
 
-Instructions françaises : README.md
+Main project guide: [README.md](README.md).

@@ -1,7 +1,16 @@
 # YouTube Clean contributor instructions
 
+## Language
+
+English is required throughout this repository: documentation, contributor and
+agent instructions, code comments, identifiers, user-facing text, commit messages,
+and pull request descriptions. Write all new and updated content in English.
+Keep README.md and README-EN.md consistent.
+
+## Development and releases
+
 Keep ordinary YouTube videos visible when changing Shorts filters. Preserve the
-documented defaults and keep the French and English guides consistent.
+documented defaults.
 
 Before a release, inspect manifest permissions and resource paths, validate the
 JavaScript, and build with `python tools/pack-release.py --output dist`.

@@ -1,38 +1,36 @@
 # YouTube Clean 1.4.2
 
-Extension gratuite pour les navigateurs de bureau basés sur Chromium : Chrome, Edge, Brave et Opera. Interface des options en français. Ce paquet Manifest V3 n'est pas fourni pour Firefox, Safari, les navigateurs mobiles ou les applications YouTube.
+Free extension for desktop Chromium browsers: Chrome, Edge, Brave and Opera. The extension's settings interface is in French. This Manifest V3 package is not provided for Firefox, Safari, mobile browsers or the YouTube apps.
 
-## Fonctions
+## Features
 
-- Masque les Shorts et les jeux intégrés (Playables) dans les éléments reconnus de YouTube, avec protection des vidéos ordinaires dans les résultats de recherche.
-- Redirige les pages Playables vers l'accueil (activé par défaut).
-- Peut ouvrir un Short dans le lecteur vidéo classique (désactivé par défaut).
-- Trie visuellement les chansons de YouTube Music du plus au moins écouté sur les pages artiste et les playlists, lorsque les compteurs sont présents dans la page. Au moins deux compteurs lisibles sont nécessaires. Le bouton « ▼ Lectures » relance le tri; les éléments non chargés ne peuvent pas être triés. Ce tri ne modifie pas la playlist enregistrée et ne garantit pas l'ordre de lecture.
+- Hides recognized Shorts and Playables elements on YouTube, with safeguards for ordinary videos in search results.
+- Redirects Playables pages to the home page (on by default).
+- Optionally opens Shorts in the standard video player (off by default).
+- Visually sorts YouTube Music songs by descending play count on artist pages and playlists when counts are available in the page. At least two readable counts are required. The “▼ Lectures” button reapplies sorting; unloaded items cannot be sorted. This does not change a saved playlist or guarantee playback order.
 
-Le masquage Shorts, le masquage Playables et le tri Music sont activés par défaut. Chaque option peut être désactivée depuis l'icône de l'extension. « Appliquer » recharge l'onglet YouTube / Music actif. Pour réafficher les éléments masqués, désactivez l'option puis rechargez la page.
+Shorts hiding, Playables hiding and Music sorting are on by default. Toggle each setting through the extension icon. “Appliquer” reloads the active YouTube / Music tab. To show hidden elements again, turn off the option and reload the page.
 
-## Installation manuelle
+## Manual installation
 
-1. Téléchargez le ZIP sur https://le-sieur.ca/youtube-clean/ puis extrayez-le dans un dossier que vous conserverez.
-2. Ouvrez la page des extensions en copiant l'adresse de votre navigateur :
-   - Chrome : chrome://extensions
-   - Edge : edge://extensions
-   - Brave : brave://extensions
-   - Opera : opera://extensions
-3. Activez le « Mode développeur ».
-4. Cliquez sur « Charger l'extension non empaquetée » (ou « Load unpacked »). Sélectionnez le dossier YouTube-Clean-v1.4.2 qui contient directement manifest.json. Ne sélectionnez pas le ZIP fermé.
-5. Ouvrez ou rechargez YouTube / YouTube Music. Épinglez l'extension si souhaité, puis ouvrez son icône pour régler les options.
+1. Download the ZIP from https://le-sieur.ca/en/youtube-clean/ and extract it into a folder you will keep.
+2. Copy your browser's extensions address into its address bar:
+   - Chrome: chrome://extensions
+   - Edge: edge://extensions
+   - Brave: brave://extensions
+   - Opera: opera://extensions
+3. Enable “Developer mode”.
+4. Click “Load unpacked”. Select the YouTube-Clean-v1.4.2 folder containing manifest.json directly, not the unopened ZIP.
+5. Open or reload YouTube / YouTube Music. Optionally pin the extension and open its icon to adjust settings.
 
-Le clic sur le site télécharge le ZIP; il n'installe pas automatiquement l'extension. Aucune publication en boutique n'est nécessaire. Si un navigateur géré par votre organisation interdit le mode développeur, respectez cette restriction. Gardez le dossier extrait à son emplacement.
+Clicking the website button downloads the ZIP; it does not install the extension automatically. No store listing is required. If your organization manages your browser and blocks developer mode, respect that restriction. Keep the extracted folder in place.
 
-## Données et permissions
+## Data and permissions
 
-L'extension lit et modifie les pages youtube.com et music.youtube.com couvertes par le manifeste. « storage » conserve les préférences avec chrome.storage.sync : elles peuvent être synchronisées par votre navigateur si sa synchronisation est active. « activeTab » sert au bouton de rechargement de l'onglet actif. Le code ne contient ni service d'analyse, ni serveur du créateur, ni envoi d'historique de navigation au créateur. Aucun compte Le Sieur ni paiement n'est requis.
+The extension reads and changes the youtube.com and music.youtube.com pages listed in its manifest. “storage” saves preferences through chrome.storage.sync: your browser may synchronize them if browser sync is enabled. “activeTab” is used by the active-tab reload button. The code contains no analytics service, creator-operated server or browsing-history transmission to the creator. No Le Sieur account or payment is required.
 
-## Limites, mise à jour et retrait
+## Limitations, updates and removal
 
-YouTube change son interface : certains éléments peuvent échapper au masquage ou au tri. L'extension n'est pas un bloqueur de publicités. Le tri dépend des données déjà affichées, sans requête à une API YouTube. Le présent paquet n'inclut pas de mise à jour automatique : téléchargez une nouvelle version lorsqu'elle est offerte et rechargez l'extension depuis la page des extensions. Pour la retirer, utilisez « Supprimer » sur cette page.
+Changes to YouTube's interface may affect hiding and sorting. This is not an ad blocker. Sorting uses data already present in the page without calling a YouTube API. This package has no automatic updater: download a new version when available and reload it from the extensions page. To uninstall, use “Remove” on that page.
 
-Projet indépendant, non affilié à YouTube ou Google. Distribué gratuitement sous licence MIT (voir LICENSE), sans garantie.
-
-English instructions: README-EN.md
+Independent project, not affiliated with YouTube or Google. Free distribution under the MIT license (see LICENSE), without warranty.
